@@ -1,0 +1,38 @@
+.header {
+  margin-bottom: 1rem;
+  .type {
+    display: flex;
+    justify-content: center;
+    .span {
+      display: flex;
+      align-items: center;
+      padding-right: 1rem;
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+}
+.preview {
+  border: 1px solid lightgray;
+  height: 49rem;
+  border-radius: 0.5rem;
+  overflow: scroll;
+  padding: 0.5rem;
+}
+.btnBox {
+  margin-bottom: 1rem;
+  .btn {
+    margin-left: 3rem;
+  }
+}
+.des {
+  margin-bottom: 1rem;
+  .preview {
+    margin-top: 1rem;
+    background-color: #f0f0f0;
+    height: 6rem;
+    border-radius: 0.3rem;
+    overflow: scroll;
+    padding: 0.4rem;
+  }
+}

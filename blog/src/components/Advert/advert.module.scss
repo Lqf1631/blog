@@ -1,0 +1,34 @@
+.box {
+  width: 100%;
+  height: 12rem;
+  position: relative;
+  margin: 0.5rem 0;
+  .img {
+    border-radius: 0.5rem;
+  }
+  .adBox {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.3rem;
+    display: flex;
+    color: lightgray;
+    background-color: gray;
+    z-index: -1;
+    cursor: pointer;
+  }
+  .adBox:hover {
+    color: beige;
+    background-color: rgb(97, 96, 96);
+    .ad {
+      display: block;
+    }
+  }
+}
+.box:hover {
+  .adBox {
+    z-index: 1;
+  }
+  .ad {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.box {
+  padding: 0.5rem 0;
+  display: flex;
+  .item {
+    margin-right: 0.7rem;
+    color: #aaa;
+    .ctx {
+      margin-left: 0.2rem;
+      display: inline-block;
+    }
+  }
+}

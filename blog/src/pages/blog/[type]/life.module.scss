@@ -1,0 +1,21 @@
+.header {
+  padding-left: 24px;
+  .item {
+    font-size: 1rem;
+  }
+}
+.list {
+  .title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #1e90ff;
+    margin-bottom: 0.5rem;
+  }
+  .ctx {
+    color: #777;
+    word-wrap: break-word;
+  }
+}
+.list:hover {
+  background-color: whitesmoke;
+}
